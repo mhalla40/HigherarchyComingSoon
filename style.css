@@ -10,6 +10,17 @@
     /* bring your own prefixes */
     transform: translate(-50%, -50%);
 }
+.coming-soon{
+    position: fixed;
+    top: 60%;
+    left: 50%;
+    /* bring your own prefixes */
+    transform: translate(-50%, -50%);
+    white-space: nowrap;
+}
+img{
+    height: 300px;
+}
 
 body{
     display: flex;
