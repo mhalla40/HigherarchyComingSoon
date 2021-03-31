@@ -92,4 +92,10 @@ body{
     align-items: center;
 }
 
+/* Small devices (landscape phones, 576px and up) */
+@media (max-width: 576px) { 
+img{
+  height: 275px;
+}
+}
 
