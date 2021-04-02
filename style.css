@@ -83,7 +83,7 @@ body {
     color: #D2AB60;
 }
 img{
-    height: 400px;
+    height: 300px;
 }
 
 body{
@@ -95,7 +95,7 @@ body{
 /* Small devices (landscape phones, 576px and up) */
 @media (max-width: 576px) { 
 img{
-  height: 275px;
+  height: 150px;
 }
 }
 
