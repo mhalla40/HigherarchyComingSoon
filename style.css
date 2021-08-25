@@ -5,97 +5,154 @@
 body {
   font-family: goldenbook, serif;
 }
-.fade-in-first{
-    animation: fadeIn ease 10s;
-    -webkit-animation: fadeIn ease 10s;
-    -moz-animation: fadeIn ease 10s;
-    -o-animation: fadeIn ease 10s;
-    -ms-animation: fadeIn ease 10s;
+.fade-in-first {
+  animation: fadeIn ease 10s;
+  -webkit-animation: fadeIn ease 10s;
+  -moz-animation: fadeIn ease 10s;
+  -o-animation: fadeIn ease 10s;
+  -ms-animation: fadeIn ease 10s;
+}
+.fade-in-second {
+  animation: fadeIn ease 15s;
+  -webkit-animation: fadeIn ease 15s;
+  -moz-animation: fadeIn ease 15s;
+  -o-animation: fadeIn ease 15s;
+  -ms-animation: fadeIn ease 15s;
+}
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
   }
-  .fade-in-second{
-    animation: fadeIn ease 15s;
-    -webkit-animation: fadeIn ease 15s;
-    -moz-animation: fadeIn ease 15s;
-    -o-animation: fadeIn ease 15s;
-    -ms-animation: fadeIn ease 15s;
+  100% {
+    opacity: 1;
   }
-  @keyframes fadeIn {
-    0% {
-      opacity:0;
-    }
-    100% {
-      opacity:1;
-    }
+}
+
+@-moz-keyframes fadeIn {
+  0% {
+    opacity: 0;
   }
-  
-  @-moz-keyframes fadeIn {
-    0% {
-      opacity:0;
-    }
-    100% {
-      opacity:1;
-    }
+  100% {
+    opacity: 1;
   }
-  
-  @-webkit-keyframes fadeIn {
-    0% {
-      opacity:0;
-    }
-    100% {
-      opacity:1;
-    }
+}
+
+@-webkit-keyframes fadeIn {
+  0% {
+    opacity: 0;
   }
-  
-  @-o-keyframes fadeIn {
-    0% {
-      opacity:0;
-    }
-    100% {
-      opacity:1;
-    }
+  100% {
+    opacity: 1;
   }
-  
-  @-ms-keyframes fadeIn {
-    0% {
-      opacity:0;
-    }
-    100% {
-      opacity:1;
+}
+
+@-o-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-ms-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
   }
 }
 
 .logo {
-    position: fixed;
-    top: 45%;
-    left: 50%;
-    /* bring your own prefixes */
-    transform: translate(-50%, -50%);
+  position: fixed;
+  top: 45%;
+  left: 50%;
+  /* bring your own prefixes */
+  transform: translate(-50%, -50%);
 }
-.coming-soon{
-    position: fixed;
-    top: 75%;
-    left: 50%;
-    /* bring your own prefixes */
-    transform: translate(-50%, -50%);
-    white-space: nowrap;
-    font-weight: 300;
-    font-size: 35px;
-    color: #D2AB60;
+.coming-soon {
+  position: fixed;
+  top: 75%;
+  left: 50%;
+  /* bring your own prefixes */
+  transform: translate(-50%, -50%);
+  white-space: nowrap;
+  font-weight: 300;
+  font-size: 35px;
+  color: #d2ab60;
 }
-img{
-    height: 300px;
+img {
+  height: 300px;
 }
 
-body{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 /* Small devices (landscape phones, 576px and up) */
-@media (max-width: 576px) { 
-img{
-  height: 150px;
-}
+@media (max-width: 576px) {
+  img {
+    height: 150px;
+  }
 }
 
+.bio {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 40vw;
+  align-items: center;
+}
+
+.bios {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.biopic {
+  height: 100%;
+  width: 66%;
+  border-radius: 40%;
+  padding: 50px;
+}
+
+/* ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style-type: none;
+  
+}
+
+li {
+  display: inline;
+  float: left;
+}
+
+li a {
+  display: block;
+  padding: 8px;
+  text-decoration: none;
+} */
+
+.nav {
+  display: flex;
+  justify-content: center;
+}
+
+.nav a {
+  padding: 0 10%;
+  text-decoration: none;
+  white-space: nowrap;
+  font-size: 35px;
+  color: #d2ab60;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+}
