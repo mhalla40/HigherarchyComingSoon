@@ -111,6 +111,7 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
+  font-size: 20px;
 }
 
 .biopic {
@@ -155,4 +156,17 @@ li a {
 body {
   display: flex;
   flex-direction: column;
+}
+
+.overview p {
+  font-size: 25px;
+  align-items: center;
+}
+
+h1 {
+  color: #d2ab60;
+}
+
+.bio h2 {
+  color: #d2ab60;
 }
