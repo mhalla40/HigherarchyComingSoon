@@ -146,6 +146,7 @@ li a {
 }
 
 .nav a {
+  
   padding: 0 10%;
   text-decoration: none;
   white-space: nowrap;
@@ -170,3 +171,33 @@ h1 {
 .bio h2 {
   color: #d2ab60;
 }
+
+.overview {
+  padding-top: 5%;
+}
+
+.overview img {
+  float: left;
+  margin: 0 15px 0 0;
+  padding-top: 2%;
+  width: 40%;
+  height: 40%;
+}
+
+hr {
+  width: 100%;
+}
+
+footer {
+  padding-top: 4%;
+}
+
+.social img {
+  background-color: black;
+  width: 40px;
+  height: 40px;
+}  
+
+
+
+
